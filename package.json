@@ -7,7 +7,12 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "number": "ts-node src/ts-lesson/number/number.ts",
+  "string": "ts-node src/ts-lesson/string/string.ts",
+  "boolean": "ts-node src/ts-lesson/boolean/boolean.ts",
+    "any": "ts-node src/ts-lesson/any/any.ts"
+
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -27,5 +32,6 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.45.0",
     "vite": "^7.1.7"
+    
   }
 }
