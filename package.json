@@ -11,7 +11,11 @@
     "number": "ts-node src/ts-lesson/number/number.ts",
   "string": "ts-node src/ts-lesson/string/string.ts",
   "boolean": "ts-node src/ts-lesson/boolean/boolean.ts",
-    "any": "ts-node src/ts-lesson/any/any.ts"
+    "any": "ts-node src/ts-lesson/any/any.ts",
+      "never": "ts-node src/special/never.ts",
+            "unknown": "ts-node src/special/unknown.ts"
+
+
 
   },
   "dependencies": {
